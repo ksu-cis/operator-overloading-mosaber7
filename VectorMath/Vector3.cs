@@ -16,6 +16,11 @@ namespace VectorMath
             Y = y;
             Z = z;
         }
+        public override string ToString()
+        {
+            return $"<>"
+        }
+        public Vector3 Add(this.X + other.X) { }
 
         // Vector Addition
 
@@ -24,5 +29,16 @@ namespace VectorMath
         // Vector Scaling 
 
         // Vector Comparison
+        public Vector3 AddinPlace(Vector3 other) {
+
+            this.X += other.X;
+            this.Y += other.Y;
+            this.Z += other.Z;
+            public static Vector3 operator -(Vector3.add(one,two)) { }
+
+
+        }
+
+
     }
 }
